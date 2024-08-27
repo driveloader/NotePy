@@ -169,9 +169,9 @@ Here's a summary of the core functionalities:
 ## Contributors 👨‍💻
 
 <ul>
-<li><a href="https://github.com/pratyushjain122">Pratyush Jain</a></li>
-<li><a href="https://github.com/mansharamani-rahul">Rahul Mansharamani</a></li>
-<li><a href="https://github.com/driveloader">Long Do (aka driveloader)</a></li>
+<li><a href="https://github.com/pratyushjain122">Pratyush Jain</a></li> -For the orginal project.
+<li><a href="https://github.com/mansharamani-rahul">Rahul Mansharamani</a></li> -For the orginal project.
+<li><a href="https://github.com/driveloader">Long Do (aka driveloader)</a></li> -For NotePy fork
 </ul>
 
 ---
