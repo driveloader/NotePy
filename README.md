@@ -132,7 +132,7 @@ Here's a summary of the main functionalities implemented in the code:
 <ul>
 <li><a href="https://github.com/pratyushjain122">Pratyush Jain</a></li>
 <li><a href="https://github.com/mansharamani-rahul">Rahul Mansharamani</a></li>
-<li><a href="https://github.com/longdo">Long Do</a></li>
+<li><a href="https://github.com/driveloader">Long Do (a.k.a. driveloader) </a></li>
 </ul>
 
 ---
