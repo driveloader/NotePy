@@ -157,3 +157,7 @@ Here's a summary of the core functionalities:
 </ul>
 
 ---
+## SUPPORT ☕
+<ul>
+## You should support the original creator, buys him a coffee so that he can creates more impressive projects:
+<li><a href="https://github.com/pratyushjain122">Pratyush Jain</a></li>
