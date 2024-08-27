@@ -2,62 +2,50 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter.messagebox import showinfo
 from tkinter.filedialog import askopenfilename, asksaveasfilename
-import os
 from tkinter.simpledialog import askstring
+import os
 
 class NotePy:
     def __init__(self, **kwargs):
-        # Initialize main window
         self.__root = tk.Tk()
         self.__root.title("Untitled - NotePy")
 
-        # Set window size
         self.__thisWidth = kwargs.get('width', 600)
         self.__thisHeight = kwargs.get('height', 600)
 
-        # Center the window
         screenWidth = self.__root.winfo_screenwidth()
         screenHeight = self.__root.winfo_screenheight()
         left = (screenWidth / 2) - (self.__thisWidth / 2)
         top = (screenHeight / 2) - (self.__thisHeight / 2)
         self.__root.geometry(f'{self.__thisWidth}x{self.__thisHeight}+{int(left)}+{int(top)}')
 
-        # Set icon (use a placeholder or remove if not available)
         try:
-            self.__root.iconbitmap("NotePy.ico")
+            self.__root.iconbitmap("Notepad.ico")
         except tk.TclError:
             pass
 
-        # Create a frame for the text area and scrollbar
         self.__mainFrame = ttk.Frame(self.__root)
         self.__mainFrame.grid(sticky='nsew')
 
-        # Create a frame for the status bar
         self.__statusFrame = ttk.Frame(self.__root)
         self.__statusFrame.grid(row=1, column=0, sticky='ew')
 
-        # Create a text area with a scrollbar
         self.__thisTextArea = tk.Text(self.__mainFrame, wrap='word', font=('Arial', 12))
         self.__thisScrollBar = ttk.Scrollbar(self.__mainFrame, orient='vertical', command=self.__thisTextArea.yview)
         self.__thisTextArea.config(yscrollcommand=self.__thisScrollBar.set)
 
-        # Pack widgets into the main frame
         self.__thisTextArea.grid(row=0, column=0, sticky='nsew')
         self.__thisScrollBar.grid(row=0, column=1, sticky='ns')
 
-        # Configure row and column weights
         self.__mainFrame.grid_rowconfigure(0, weight=1)
         self.__mainFrame.grid_columnconfigure(0, weight=1)
 
-        # Status bar elements
         self.__statusBar = tk.Label(self.__statusFrame, text="Ln 1 | Col 1 | 100% | CRLF | UTF-8", anchor='w')
         self.__statusBar.grid(row=0, column=0, sticky='ew')
 
-        # Create menu bar
         self.__thisMenuBar = tk.Menu(self.__root)
         self.__root.config(menu=self.__thisMenuBar)
 
-        # File menu
         self.__thisFileMenu = tk.Menu(self.__thisMenuBar, tearoff=0)
         self.__thisFileMenu.add_command(label="New", command=self.__newFile, accelerator="Ctrl+N")
         self.__thisFileMenu.add_command(label="Open", command=self.__openFile, accelerator="Ctrl+O")
@@ -66,7 +54,6 @@ class NotePy:
         self.__thisFileMenu.add_command(label="Exit", command=self.__quitApplication, accelerator="Ctrl+Q")
         self.__thisMenuBar.add_cascade(label="File", menu=self.__thisFileMenu)
 
-        # Edit menu
         self.__thisEditMenu = tk.Menu(self.__thisMenuBar, tearoff=0)
         self.__thisEditMenu.add_command(label="Cut", command=self.__cut, accelerator="Ctrl+X")
         self.__thisEditMenu.add_command(label="Copy", command=self.__copy, accelerator="Ctrl+C")
@@ -77,23 +64,19 @@ class NotePy:
         self.__thisEditMenu.add_command(label="Replace", command=self.__findReplace, accelerator="Ctrl+H")
         self.__thisMenuBar.add_cascade(label="Edit", menu=self.__thisEditMenu)
 
-        # Format menu
         self.__thisFormatMenu = tk.Menu(self.__thisMenuBar, tearoff=0)
         self.__thisFormatMenu.add_command(label="Font Size", command=self.__setFontSize)
         self.__thisFormatMenu.add_command(label="Font Style", command=self.__setFontStyle)
         self.__thisMenuBar.add_cascade(label="Format", menu=self.__thisFormatMenu)
 
-        # Help menu
         self.__thisHelpMenu = tk.Menu(self.__thisMenuBar, tearoff=0)
         self.__thisHelpMenu.add_command(label="About NotePy", command=self.__showAbout)
         self.__thisMenuBar.add_cascade(label="Help", menu=self.__thisHelpMenu)
 
-        # Initialize file variable
         self.__file = None
         self.__line_endings = "CRLF"
         self.__encoding = "UTF-8"
 
-        # Bind events
         self.__thisTextArea.bind('<KeyRelease>', self.__updateStatusBar)
         self.__root.bind_all('<Control-n>', lambda e: self.__newFile())
         self.__root.bind_all('<Control-o>', lambda e: self.__openFile())
@@ -135,6 +118,7 @@ class NotePy:
             with open(self.__file, "w", encoding=self.__encoding) as file:
                 file.write(self.__thisTextArea.get(1.0, tk.END))
             self.__root.title(os.path.basename(self.__file) + " - NotePy")
+            self.__updateStatusBar()
 
     def __cut(self):
         self.__thisTextArea.event_generate("<<Cut>>")
@@ -183,7 +167,7 @@ class NotePy:
             try:
                 size = int(size)
                 current_font = self.__thisTextArea.cget("font")
-                font_family, font_size = current_font.split(' ')
+                font_family, font_size = current_font.rsplit(' ', 1)
                 self.__thisTextArea.config(font=(font_family, size))
             except ValueError:
                 showinfo("Error", "Invalid font size.")
@@ -192,7 +176,7 @@ class NotePy:
         font_style = askstring("Font Style", "Enter font style (e.g., Arial, Courier):")
         if font_style:
             current_font = self.__thisTextArea.cget("font")
-            font_family, font_size = current_font.split(' ')
+            font_family, font_size = current_font.rsplit(' ', 1)
             self.__thisTextArea.config(font=(font_style, font_size))
 
     def __updateStatusBar(self, event=None):
@@ -200,19 +184,16 @@ class NotePy:
         num_lines = int(self.__thisTextArea.index('end-1c').split('.')[0])
         num_cols = len(self.__thisTextArea.get(tk.INSERT + " linestart", tk.INSERT))
         num_words = len(content.split())
-        
-        # Get current position
+
         line, col = map(int, self.__thisTextArea.index(tk.INSERT).split('.'))
         line_endings = self.__line_endings
         encoding = self.__encoding
-        
-        # Update status bar
+
         self.__statusBar.config(text=f"Ln {line} | Col {col} | {num_words} Words | {line_endings} | {encoding}")
 
     def run(self):
         self.__root.mainloop()
 
-# Run the application
 if __name__ == "__main__":
-    NotePy = NotePy(width=600, height=460)
-    NotePy.run()
+    app = NotePy(width=600, height=460)
+    app.run()
