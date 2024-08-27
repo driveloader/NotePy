@@ -1,7 +1,7 @@
 
 <h1 align="center">NotePy 📓</h1>
 
-<h3 align="center"> &mdash; An Enhanced Version of Notepad Using Python & Tkinter &mdash;</h3>
+<h3 align="center"> &mdash; An Enhanced Version of Notepad (originally by pratyushjain122) Using Python & Tkinter &mdash;</h3>
 
 &nbsp;
 
