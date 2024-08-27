@@ -58,8 +58,8 @@ NotePy is an upgraded text editor based on the original notepad-python project. 
 
 ### Source Code
 
-- **Description**: The complete source code for NotePy, available for download and compilation. Because what’s an open-source project without the source code? (Lol, we know you like to tinker.)
-- **Use Case**: Perfect for those who prefer to compile the software themselves or need to run it on different operating systems. Great for the true software enthusiasts or anyone who compiles Gentoo daily!
+- **Description**: The complete source code for NotePy, available for download and compilation. Obviously, what would you expect more from a open source project? (lol) 
+- **Use Case**: Perfect for those who prefer to compile the software themselves or need to run it on different operating systems. Great for the tryhards who compiles Gentoo 10 times a day. (Damn I really tried but my computer exploded)
 
 &nbsp;
 
