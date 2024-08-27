@@ -1,50 +1,65 @@
-<h1 align="center">NOTEPAD 📓</h1>
+<h1 align="center">NotePy 📓</h1>
 
-<h3 align="center"> &mdash; using PYTHON & TKINTER &mdash;</h3>
+<h3 align="center"> &mdash; An Upgraded Version of NOTEPAD Using Python & Tkinter &mdash;</h3>
 
 &nbsp;
+
 ## What is Tkinter?
 
 #### 👉 Tkinter is Python's de-facto standard GUI (Graphical User Interface) package.
-#### 👉 Tkinter is not the only GuiProgramming toolkit for Python. It is however the most commonly used one.
+#### 👉 While Tkinter is not the only GUI toolkit for Python, it is the most commonly used one due to its simplicity and integration with Python.
 
 &nbsp;
-## GUI 🧩
 
-#### A GUI (graphical user interface) is a system of interactive visual components for computer software. A GUI displays objects that convey information, and represent actions that can be taken by the user. The objects change color, size, or visibility when the user interacts with them.
+## What is NotePy?
+
+NotePy is an upgraded version of the original NOTEPAD project. It provides a simple and intuitive text editor built using Python and Tkinter, featuring enhanced functionality and user experience improvements.
 
 &nbsp;
-## WORKING 👷‍♂️
 
-#### ~ After running the program a simple GUI window pops out.
+## GUI Overview 🧩
+
+#### A GUI (Graphical User Interface) allows users to interact with software through visual components such as buttons, text fields, and menus. These components enable users to perform actions and view information in an interactive manner.
+
+&nbsp;
+
+## How It Works 👷‍♂️
+
+#### ~ When you run the program, a user-friendly GUI window will appear.
 
 <p align="center">
-<img src="https://github.com/pratyushjain122/notepad-python/blob/master/Extra/Main.png" alt="main page" width=500px >
+<img src="https://github.com/pratyushjain122/notepad-python/blob/master/Extra/Main.png" alt="Main Page" width=500px >
 </p>
 
-#### ~ You can write anything like any normal notepad here.
+#### ~ You can write text just like you would in any standard notepad application.
 
 &nbsp;
-### ~ This is the File Menu 👇
+
+### File Menu 👇
+
 <br>
 <img src="https://github.com/pratyushjain122/notepad-python/blob/master/Extra/File%20Menu.png" alt="File Menu">
 
-#### ~ In this window you can create a 'New' file, 'Open' an existing file or 'Save' the current file. You can also Exit the current window.
+#### ~ The File Menu allows you to create a 'New' file, 'Open' an existing file, 'Save' the current file, or 'Exit' the application.
+
 <hr>
 
 &nbsp;
 
-### ~ This is the Edit Menu 👇
+### Edit Menu 👇
+
 <br>
 <img src="https://github.com/pratyushjain122/notepad-python/blob/master/Extra/Edit%20Menu.png" alt="Edit Menu">
 
-#### ~ In this window you can 'Cut' , 'Copy' or 'Paste' the content from or into the current file.
+#### ~ The Edit Menu provides options to 'Cut', 'Copy', or 'Paste' text within the current file.
 
 &nbsp;
 
-## Contributors👨‍💻
+## Contributors 👨‍💻
 
 <ul>
 <li><a href="https://github.com/pratyushjain122">Pratyush Jain</a></li>
 <li><a href="https://github.com/mansharamani-rahul">Rahul Mansharamani</a></li>
 </ul>
+
+---
