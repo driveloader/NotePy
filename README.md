@@ -27,7 +27,7 @@ NotePy is an upgraded text editor based on the original notepad-python project. 
 3. **Save File**: Save your document. Imagine losing your 2000 lines of code just because of a cat stepping on your power button. (My cat btw)
 4. **Cut**: Cut selected text. Self-Explainatory (Haven't came up with a new joke **yet**)
 5. **Copy**: Copy selected text. Because good ideas deserve to be duplicated, like that one meme you keep sending to everyone.
-6. **Paste**: Paste text from the clipboard. Reuse like a pro—just don’t overdo it like that one guy at the buffet. (That one fat guy at my nearby buffet restaurant)
+6. **Paste**: Paste text from the clipboard. Reuse like a pro—just don’t overdo it like that one guy at the buffet. (That one guy at my nearby buffet restaurant)
 7. **View Help**: Access help information for the application. 
 
 ### New Features in NotePy:
