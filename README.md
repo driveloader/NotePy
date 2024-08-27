@@ -2,7 +2,7 @@
 
 <h3 align="center">— An Enhanced Version of Notepad (originally by pratyushjain122) Built with Python & Tkinter —</h3>
 
-### 🔥 NotePy transforms the original Notepad project by pratyushjain122 into a modern, fully-featured text editor designed for everyday use, offering a more efficient and user-friendly replacement for Notepad.
+### 🔥 NotePy aims is to transforms the original notepad-python project by pratyushjain122 into a not-so-modern(still keeps the notepad classic vibes) but fully-featured text editor designed for everyday use, offering a more efficient replacement for Notepad.
 
 &nbsp;
 
