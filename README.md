@@ -54,7 +54,7 @@ NotePy is an upgraded text editor based on the original Notepad project, offerin
 #### ~ When you run the program, a user-friendly GUI window will appear.
 
 <p align="center">
-<img src="https://github.com/pratyushjain122/notepad-python/blob/master/Extra/Main.png" alt="Main Page" width=500px >
+<img src="https://github.com/driveloader/NotePy/blob/master/Extra/image.png" alt="Main Page" width=500px >
 </p>
 
 #### ~ You can write text just like you would in any standard notepad application.
@@ -64,9 +64,10 @@ NotePy is an upgraded text editor based on the original Notepad project, offerin
 ### File Menu 👇
 
 <br>
-<img src="https://github.com/pratyushjain122/notepad-python/blob/master/Extra/File%20Menu.png" alt="File Menu">
+<img src="https://github.com/driveloader/NotePy/blob/master/Extra/image2.png" alt="File Menu">
 
 #### ~ The File Menu allows you to create a 'New' file, 'Open' an existing file, 'Save' the current file, or 'Exit' the application.
+#### ~ NotePy also added some new keybinds to toggle the fuctions.
 
 <hr>
 
@@ -75,9 +76,10 @@ NotePy is an upgraded text editor based on the original Notepad project, offerin
 ### Edit Menu 👇
 
 <br>
-<img src="https://github.com/pratyushjain122/notepad-python/blob/master/Extra/Edit%20Menu.png" alt="Edit Menu">
+<img src="https://github.com/driveloader/NotePy/blob/master/Extra/image3.png" alt="Edit Menu">
 
-#### ~ The Edit Menu provides options to 'Cut', 'Copy', 'Paste', 'Undo', 'Redo', 'Find', and 'Replace' text within the current file.
+#### ~ Originally (https://github.com/pratyushjain122/notepad-python), the Edit Menu only provides options to 'Cut', 'Copy', 'Paste' text within the current file.
+#### ~ NotePy added more fuctions to the menu such as , 'Undo', 'Redo', 'Find', and 'Replace' and handy keybinds to them.
 
 &nbsp;
 
