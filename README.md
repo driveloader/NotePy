@@ -7,7 +7,7 @@ Here’s the updated README file incorporating the new features:
 <h3 align="center">— An Enhanced Version of Notepad (originally by pratyushjain122) Built with Python & Tkinter —</h3>
 
 ### 🔥 NotePy transforms the original notepad-python project by pratyushjain122 into a not-so-modern (but still nostalgic) yet fully-featured text editor designed for everyday use. It's a more efficient replacement for Notepad, but with a modern twist. Because why settle for ordinary when you can have extraordinary?
-                               # Latest Update: Version 1.3 - New Features and Window Adjustment
+                       # Latest Update: Version 1.3 - New Features and Window Adjustment
 &nbsp;
 
 ## What is Tkinter?
