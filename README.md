@@ -71,7 +71,7 @@ A GUI (Graphical User Interface) allows users to interact with software through 
 
 ## How It Works 👷‍♂️
 
-#### ~ When you launch NotePy, a user-friendly GUI window will open, and you’ll be ready to write and edit text just like in any standard notepad application. It’s as easy as pie, if pie were made of code.💀
+#### ~ When you launch NotePy, a user-friendly GUI window will open, and you’ll be ready to write and edit text just like in any standard notepad application. It’s as easy as pie, if pie were made of code. (lol)
 
 <p align="center">
 <img src="https://github.com/driveloader/NotePy/blob/master/Extra/image.png" alt="Main Page" width="500px">
