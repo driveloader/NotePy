@@ -1,9 +1,13 @@
+Here’s the updated README file incorporating the new features:
+
+---
+
 <h1 align="center">NotePy 📓</h1>
 
 <h3 align="center">— An Enhanced Version of Notepad (originally by pratyushjain122) Built with Python & Tkinter —</h3>
 
 ### 🔥 NotePy transforms the original notepad-python project by pratyushjain122 into a not-so-modern (but still nostalgic) yet fully-featured text editor designed for everyday use. It's a more efficient replacement for Notepad, but with a modern twist. Because why settle for ordinary when you can have extraordinary?
-
+                               # Latest Update: Version 1.3 - New Features and Window Adjustment
 &nbsp;
 
 ## What is Tkinter?
@@ -32,15 +36,20 @@ NotePy is an upgraded text editor based on the original notepad-python project. 
 
 ### New Features in NotePy:
 
-1. **Enhanced Edit Menu**: Now includes "Undo," "Redo," "Find," and "Replace" features. It’s like having an editor’s undo button for life. Just don’t try to use it on your last relationship. (lol)
-2. **Convenient Hotkeys**: Adds various hotkeys to streamline your workflow. 
-3. **Status Bar**: Displays real-time document information, including:
+1. **Enhanced Edit Menu**: Now includes "Undo," "Redo," "Find,", "Replace" and "Select All" features. It’s like having an editor’s undo button for life. Just don’t try to use it on your last relationship. (lol)
+2. **Convenient Hotkeys**: Adds various hotkeys to streamline your workflow:
+   **For Example:**
+   - **New Window**: Open a new instance of the application (Ctrl+Shift+N).
+   - **Save As**: Save the current file under a new name (Ctrl+Shift+S).
+   - **Select All**: Select all text in the editor (Ctrl+A).
+4. **File Association**: Ability to open a `.txt` file directly via "Open with NotePy" from the file context menu.
+5. **Status Bar**: Displays real-time document information, including:
    - Cursor position (line and column number). Never lose your place again—unless you accidentally move your cursor to another galaxy. 🖱️
    - Word count. Because sometimes you just need to know how many words you’ve written—and how many you still owe your novel. 💀
    - Line endings (e.g., CRLF). For the technical wizards out there. It’s like knowing whether to use a fork or a spoon.
    - File encoding (e.g., UTF-8). 
-4. **Format Menu**: Adjust the global font style and size. 
-
+6. **Format Menu**: Adjust the global font style and size. 
+7. **Enhanced File Menu**: With new indispensable features like "New Window" and "Save As" to enhance user's workflow.
 &nbsp;
 
 ## What's Included in This Project 👜
@@ -65,7 +74,7 @@ NotePy is an upgraded text editor based on the original notepad-python project. 
 ## GUI Overview 🧩
 
 A GUI (Graphical User Interface) allows users to interact with software through visual elements like buttons, text fields, and menus. 
-## We tried our best to replica to classic Notepad GUI, but remember, it's not an 100% accurate replica cuz God knows the Notepad source code. It's created by a company that creates proprietary softwares anyway. 💀
+## We tried our best to replicate the classic Notepad GUI, but remember, it's not a 100% accurate replica because God knows the Notepad source code. It's created by a company that creates proprietary software anyway. 💀
 
 &nbsp;
 
@@ -84,7 +93,10 @@ A GUI (Graphical User Interface) allows users to interact with software through 
 <br>
 <img src="https://github.com/driveloader/NotePy/blob/master/Extra/image2.png" alt="File Menu">
 
-#### ~ The File Menu lets you create a new file, open an existing one, save the current file, or exit the application. Plus, new keybindings to make life easier.
+#### ~ The File Menu lets you create a new file, open an existing one, save the current file, or exit the application. Plus, new keybindings to make life easier:
+- **New Window** (Ctrl+Shift+N)
+- **Save As** (Ctrl+Shift+S)
+- **Select All** (Ctrl+A)
 
 <hr>
 
@@ -120,6 +132,7 @@ A GUI (Graphical User Interface) allows users to interact with software through 
 5. **Find and Replace**: Use the Find and Replace dialog to search and replace text. 
 6. **Check Status**: Monitor the status bar for real-time document details. 
             **And more features waiting for you to explore**
+
 ## For Installer Version
 
 1. **Install The App**: Run the installer and follow the prompts to install NotePy on your machine. It’s like inviting NotePy to live on your computer.
@@ -138,11 +151,16 @@ Here's a summary of the core functionalities:
   - **New File**: Clears the current text area and resets the file name. 
   - **Open File**: Opens a file dialog to load content into the editor. 
   - **Save File**: Saves the current content to a file with options for naming and location. 
+  - **New Window**: Opens a new instance of the application. 
+  - **Save As**: Save the current file under a new name.
 - **Text Editing**:
   - **Cut, Copy, Paste**: Standard text editing functions. 
   - **Undo, Redo**: Reverses or re-applies recent changes. 
   - **Find and Replace**: Allows interactive text searching and replacement. 
+  - **Select All**: Selects all text in the editor.
 - **Formatting**:
+
+
   - **Font Size and Style**: Adjusts text appearance.
 - **Status Bar**: Displays real-time information about the document. Never lose track of what’s important—like having a GPS for your text.
 
@@ -161,3 +179,5 @@ Here's a summary of the core functionalities:
 Support the original creator by buying them a coffee so they can create more impressive projects:
 
 - **Pratyush Jain**: [GitHub Profile](https://github.com/pratyushjain122)
+
+---
