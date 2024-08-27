@@ -1,6 +1,3 @@
-Here's an updated README file for your project, **NotePy**, reflecting both the original and the new features based on the provided code:
-
----
 
 <h1 align="center">NotePy 📓</h1>
 
@@ -137,5 +134,3 @@ Here's a summary of the main functionalities implemented in the code:
 </ul>
 
 ---
-
-Feel free to adjust the contributor section as necessary and ensure that all URLs and details are accurate for your specific context.
