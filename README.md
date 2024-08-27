@@ -20,7 +20,7 @@ NotePy is an upgraded text editor based on the original Notepad project, offerin
 
 ## Features
 
-### Original Features:
+### Original Features (from https://github.com/pratyushjain122/notepad-python):
 
 1. **New File**: Create a new, untitled document.
 2. **Open File**: Open an existing file and load its content into the editor.
@@ -30,10 +30,10 @@ NotePy is an upgraded text editor based on the original Notepad project, offerin
 6. **Paste**: Paste text from the clipboard into the document.
 7. **View Help**: Access a help page for the Notepad application.
 
-### Newly Added Features:
+### Newly Added Features to NotePy:
 
-1. **Font Size Adjustment**: Change the font size of the text in the editor.
-2. **Font Style Adjustment**: Change the font style (e.g., Arial, Courier) of the text.
+1. **More Edit Menu Features**: Added "Undo", "Redo" and search-related features like "Find" and "Replace"
+2. **Handy Hotkeys**: Added a varieties to handy hotkey to enhance user's workflow
 3. **Status Bar**: Displays real-time information about the document:
    - Line number and column number of the cursor position
    - Word count
