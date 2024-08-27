@@ -48,12 +48,12 @@ NotePy is an upgraded text editor based on the original notepad-python project. 
 ### Portable Version 
 
 - **Description**: A download-and-play version pre-compiled into an executable (.exe) that runs on any Windows machine without installation. It’s the software equivalent of a Swiss Army knife—versatile and always ready. Perfect for when you need a quick fix without the fuss!
-- **Use Case**: Ideal for those who prefer a plug-and-play application or want to keep it on a USB drive. No installation required—just run and go! Like a fast-food drive-thru for your text editing needs.
+- **Use Case**: Ideal for those who prefer a plug-and-play application or want to keep it on a USB drive. No installation required—just run and go! Like a fast-**text** drive-thru. (Get it? Fast-Food drive thru for text editing)
 
 ### Install Version 
 
 - **Description**: Install NotePy on your machine for a smoother workflow. One-click, and it’s on your device—no more searching for the portable file. Installation makes it as easy as pie. Just don’t ask us to bake the pie!
-- **Use Case**: Ideal for those who want NotePy integrated into their system for everyday use. Installation makes it easy to access NotePy without the hassle of finding and running the portable version. Like having your favorite app in your pocket—minus the pocket lint.
+- **Use Case**: Ideal for those who want NotePy integrated into their system for everyday use. Installation makes it easy to access NotePy without the hassle of finding and running the portable version.
 
 ### Source Code
 
@@ -64,7 +64,8 @@ NotePy is an upgraded text editor based on the original notepad-python project. 
 
 ## GUI Overview 🧩
 
-A GUI (Graphical User Interface) allows users to interact with software through visual elements like buttons, text fields, and menus. It’s what keeps your interactions with NotePy smooth and intuitive—like a well-oiled machine.
+A GUI (Graphical User Interface) allows users to interact with software through visual elements like buttons, text fields, and menus. 
+## We tried our best to replica to classic Notepad GUI, but remember, it's not an 100% accurate replica cuz God knows the Notepad source code. It's created by a company that creates proprietary softwares anyway. 💀
 
 &nbsp;
 
