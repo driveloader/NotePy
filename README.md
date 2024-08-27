@@ -158,6 +158,6 @@ Here's a summary of the core functionalities:
 
 ---
 ## SUPPORT ☕
-<ul>
-- **You should support the original creator, buys him a coffee so that he can creates more impressive projects:**
-<li><a href="https://github.com/pratyushjain122">Pratyush Jain</a></li>
+Support the original creator by buying them a coffee so they can create more impressive projects:
+
+- **Pratyush Jain**: [GitHub Profile](https://github.com/pratyushjain122)
