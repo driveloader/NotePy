@@ -4,7 +4,7 @@ from tkinter.messagebox import showinfo
 from tkinter.filedialog import askopenfilename, asksaveasfilename
 from tkinter.simpledialog import askstring
 import os
-
+#1.2
 class NotePy:
     def __init__(self, **kwargs):
         self.__root = tk.Tk()
